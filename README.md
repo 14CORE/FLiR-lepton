@@ -51,3 +51,5 @@ You cannot get directly those values from the camera, first you should do a cali
 
 
 If you have any issues, please contact me at josepbordesjove@gmail.com and ask.
+
+Also I developed a version for the Raspberry, which is more reliable to use, here is the link https://github.com/josepbordesjove/LeptonCapture
