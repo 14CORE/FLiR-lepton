@@ -47,11 +47,10 @@ You cannot get directly those values from the camera, first you should do a cali
 
 * **4:** Finally you will have a formula like: T = 0.03385·RAW + T_C - 276.96 and if the RAW is equal to 8152 and the T_C is 33.21, the temperature reading will be 32.19 ºC. 
 
-### Image Example
-![alt tag](https://github.com/josepbordesjove/FLiR-lepton/blob/master/Connections/Image%204.png)
-
 **Note**: This process is not very accurate, but could give you a good approximation of the temperature, it is far to be the best way to do it, it is only an example, if you have a better one, tell me and I'll update it.
 
+### Image Example
+![alt tag](https://github.com/josepbordesjove/FLiR-lepton/blob/master/Connections/Image%204.png)
 
 If you have any issues, please contact me at josepbordesjove@gmail.com and ask.
 
