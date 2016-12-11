@@ -45,7 +45,10 @@ You cannot get directly those values from the camera, first you should do a cali
 
 * **3:** With a formula of the type (T = a·RAW + T_C - k) where T is the temperature of the object, RAW the value that the camera captured (a mid value of a region for example) and T_C is the temperature of the camera, you have to fit the formula (modifying the a and k values) with the values of the table described at the second point. The fitting has to be done with some mathematical method, but a simple option could be doing it with 2 table values, that will give us a two equation system with 2 unkown values, which will make you able to fins a value for the "a" and a value for the "k".
 
-* **4:** Finally you will have a formula like: T = 0.03385·RAW + T_C - 276.96 and if the RAW is equal to 8152 and the T_C is 33.21, the temperature reading will be 32.19 ºC.  
+* **4:** Finally you will have a formula like: T = 0.03385·RAW + T_C - 276.96 and if the RAW is equal to 8152 and the T_C is 33.21, the temperature reading will be 32.19 ºC. 
+
+### Image Example
+![alt tag](https://github.com/josepbordesjove/FLiR-lepton/blob/master/Connections/Image%204.png)
 
 **Note**: This process is not very accurate, but could give you a good approximation of the temperature, it is far to be the best way to do it, it is only an example, if you have a better one, tell me and I'll update it.
 
